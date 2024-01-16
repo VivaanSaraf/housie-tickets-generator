@@ -67,31 +67,7 @@ def getTickets():
             number = random.choice(total_numbers[20:30])
             ticket_array[num] = number
             total_numbers[total_numbers.index(number)] = 0
-        elif num[1] == 3:
-            number = random.choice(total_numbers[30:40])
-            ticket_array[num] = number
-            total_numbers[total_numbers.index(number)] = 0
-        elif num[1] == 4:
-            number = random.choice(total_numbers[40:50])
-            ticket_array[num] = number
-            total_numbers[total_numbers.index(number)] = 0
-        elif num[1] == 5:
-            number = random.choice(total_numbers[50:60])
-            ticket_array[num] = number
-            total_numbers[total_numbers.index(number)] = 0
-        elif num[1] == 6:
-            number = random.choice(total_numbers[60:70])
-            ticket_array[num] = number
-            total_numbers[total_numbers.index(number)] = 0
-        elif num[1] == 7:
-            number = random.choice(total_numbers[70:80])
-            ticket_array[num] = number
-            total_numbers[total_numbers.index(number)] = 0
-        elif num[1] == 8:
-            number = random.choice(total_numbers[80:89])
-            ticket_array[num] = number
-            total_numbers[total_numbers.index(number)] = 0
-
+       
     # Sort the ticket_array column wise to satisfy the RULE #3
 
     for col in range(9):
